@@ -1,0 +1,6 @@
+{
+  "name": "Linux Character Device Driver Workbench",
+  "description": "Production-grade Linux character device driver subsystem in C with dynamic cdev registration, VFS file operations, mutex synchronization, safe user/kernel memory boundary validation, and an interactive kernel emulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

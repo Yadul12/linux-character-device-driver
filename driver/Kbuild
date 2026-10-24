@@ -1,0 +1,6 @@
+# Kbuild file for vchar_dev kernel module
+obj-m += vchar_dev.o
+vchar_dev-y := chardev.o
+
+# Extra warning flags for clean kernel compilation
+ccflags-y := -Wall -Wextra -Werror -Wno-unused-parameter

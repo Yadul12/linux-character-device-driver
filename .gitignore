@@ -1,0 +1,29 @@
+# Kernel Module Build Artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+.*.cmd
+.*.d
+.tmp_versions/
+Module.symvers
+modules.order
+
+# User-Space Test Binaries
+user/chardev_test
+user/chardev_sim
+
+# Node.js & Web Applet Artifacts
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor and OS
+.DS_Store
+*.swp
+*~
+.vscode/
